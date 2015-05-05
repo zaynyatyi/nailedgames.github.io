@@ -267,7 +267,6 @@ Full-Width Styles
 .inner {
   position: relative;
   max-width: 800px;
-  min-height: 150px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -298,7 +297,12 @@ Full-Width Styles
 
 #projects {
   max-width: 800px;
-  display: table-cell;
+}
+
+#projects:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #forkme_banner {
@@ -355,12 +359,18 @@ Full-Width Styles
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
-#project1 {
-  margin-left: 50px;
+.card {
+  float: left;
+  width: 33.33%;
+  min-width: 210px;
 }
 
 .card {
-  float: left;
+  padding-right: 20px;
+}
+
+.card:last-of-type {
+  padding-right: 0;
 }
 
 .card img {
@@ -410,7 +420,11 @@ Full-Width Styles
   background: #212121;
 }
 
-
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /*******************************************************************************
 Small Device Styles
