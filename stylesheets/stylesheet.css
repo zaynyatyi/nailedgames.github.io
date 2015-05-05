@@ -266,9 +266,39 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
+  min-height: 150px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+#parent {
+  overflow: hidden;
+  display: table-row;
+}
+
+#title {
+  display: table-cell;
+}
+
+#contacts {
+  width: 100px;
+  display: table-cell;
+  position: absolute;
+  right: 0px;
+}
+
+#contacts a:hover {
+  color: #ddd;
+}
+
+#contacts a {
+  color: #f99404;
+}
+
+#projects {
+  max-width: 800px;
+  display: table-cell;
 }
 
 #forkme_banner {
@@ -323,6 +353,18 @@ Full-Width Styles
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+}
+
+#project1 {
+  margin-left: 50px;
+}
+
+.card {
+  float: left;
+}
+
+.card img {
+  display: block;
 }
 
 .zip_download_link {
