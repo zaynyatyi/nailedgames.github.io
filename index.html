@@ -6,6 +6,9 @@
     <meta name="description" content="zaynyatyi.github.io : Heorhiy Kharvat (zaynyatyi) portfolio page">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <script src="javascripts/jquery-1.11.3.min.js"></script>
+    <script src="javascripts/masonry.pkgd.min.js"></script>
+    <script src="javascripts/main.js"></script>
 
     <title>NailedGames</title>
   </head>
@@ -39,9 +42,10 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <div id="projects">
-          <div class="card">
+        <div id="projects" class="grid js-masonry" data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 120 }'>
+          <div class="card grid-item">
             <a href="http://www.newgrounds.com/portal/view/569999">
+              <p class="card_caption">Underworld: Defense</p>
               <img src="images/projects/boat.png"/>
             </a>
             <div class="card_description">
@@ -52,8 +56,9 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card grid-item">
             <a href="http://www.newgrounds.com/portal/view/574142">
+              <p class="card_caption">Returning of quantum cat</p>
               <img src="images/projects/cat.png"/>
             </a>
             <div class="card_description">
@@ -63,8 +68,9 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card grid-item">
             <a href="http://www.newgrounds.com/portal/view/579997">
+              <p class="card_caption">Escape The Toilet</p>
               <img src="images/projects/toilet.png"/>
             </a>
             <div class="card_description">
@@ -74,8 +80,9 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card grid-item">
             <a href="http://www.newgrounds.com/portal/view/620417">
+              <p class="card_caption">Constellation</p>
               <img src="images/projects/constellation.png"/>
             </a>
             <div class="card_description">
@@ -84,8 +91,9 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card grid-item">
             <a href="http://www.newgrounds.com/portal/view/625287">
+              <p class="card_caption">Reflector</p>
               <img src="images/projects/deflektor.png"/>
             </a>
             <div class="card_description">
@@ -94,8 +102,9 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card grid-item">
             <a href="https://www.youtube.com/watch?v=Z_JhutzP6-c">
+              <p class="card_caption">Snatcher</p>
               <img src="images/projects/snatcher.png"/>
             </a>
             <div class="card_description">
@@ -104,8 +113,9 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card grid-item">
             <a href="https://www.youtube.com/watch?v=5bTzOMyCwOY">
+              <p class="card_caption">Station Escape</p>
               <img src="images/projects/station_escape.png"/>
             </a>
             <div class="card_description">

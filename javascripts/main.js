@@ -1,1 +1,5 @@
-console.log('This would be the main JS file.');
+$( document ).ready(function() {
+  var grid = $('.grid');
+  var msnry = new Masonry(grid);
+});// vanilla JS
+
