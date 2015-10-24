@@ -390,6 +390,11 @@ Full-Width Styles
   color: #f99404;
 }
 
+.card a img {
+  width: 200px;
+  height: 100px;
+}
+
 .card:last-of-type {
   padding-right: 0;
 }
