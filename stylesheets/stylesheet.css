@@ -365,11 +365,20 @@ Full-Width Styles
 
 .card {
   float: left;
-  min-width: 210px;
+  width: 210px !important;
+  padding-right: 20px;
+  margin-right: 20px;
 }
 
-.card {
-  padding-right: 20px;
+.card_description {
+  color: #e3e3e3;
+  padding: 0px 5px 0px 5px;
+  width: 210px;
+}
+
+.card_description p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .card:last-of-type {
