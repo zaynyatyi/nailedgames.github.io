@@ -358,10 +358,11 @@ Full-Width Styles
 
 .icon {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 100px;
+  height: 100px;
   top: 53px;
   left: 1px;
+  pointer-events: none;
 }
 
 .wip {
@@ -416,7 +417,7 @@ Full-Width Styles
 
 .card a img {
   width: 200px;
-  height: 100px;
+  height: 102px;
 }
 
 .card:last-of-type {
