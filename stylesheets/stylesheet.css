@@ -406,7 +406,7 @@ Full-Width Styles
 .card_caption {
   font-size: 18px;
   text-align: center;
-  width: 210px !important;
+  width: 200px !important;
 }
 
 .card a:hover {
