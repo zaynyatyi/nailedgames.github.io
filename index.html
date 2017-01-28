@@ -16,6 +16,14 @@
         OneSignal.push(["init", {
             appId: "110a091a-93a3-45a7-8242-7e7ad7415750",
             autoRegister: false,
+            /* Set to true to automatically prompt visitors */
+            subdomainName: 'nailedgames',
+            /*
+            subdomainName: Use the value you entered in step 1.4: http://imgur.com/a/f6hqN
+            */
+            httpPermissionRequest: {
+                enable: true
+            },
             notifyButton: {
                 enable: true /* Set to false to hide */
             }
