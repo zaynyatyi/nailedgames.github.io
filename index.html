@@ -9,6 +9,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <script src="javascripts/jquery-1.11.3.min.js"></script>
 
+    <link rel="manifest" href="/webpush_os/manifest.json">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(["init", {
+            appId: "110a091a-93a3-45a7-8242-7e7ad7415750",
+            autoRegister: false,
+            notifyButton: {
+                enable: true /* Set to false to hide */
+            }
+        }]);
+    </script>
     <title>NailedGames</title>
 </head>
 
