@@ -43,3 +43,19 @@
     margin-left: 50%;
     overflow: hidden;
 }
+
+.glyphicon {
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.glyphicon-haxe {
+    background-image: url(/pages/icons/haxe.png);
+}
+
+.glyphicon-openfl {
+    background-image: url(/pages/icons/openfl.png);
+}
