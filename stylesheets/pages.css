@@ -1,0 +1,45 @@
+#info_page_back {
+    background: #ffffff;
+}
+
+.column_1_4 {
+    width: 25%;
+}
+
+.column_2_4 {
+    width: 50%;
+}
+
+.column_3_4 {
+    width: 75%;
+}
+
+.column_4_4 {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+.screenshot {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#info_content_wrap {
+    max-width: 1024px;
+    width: 100%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    overflow: hidden;
+}

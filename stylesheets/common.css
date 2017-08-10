@@ -126,6 +126,10 @@ Theme Styles
     background: #212121;
 }
 
+#info_page_back {
+    background: #ffffff;
+}
+
 body {
     box-sizing: border-box;
     color: #373737;
@@ -529,15 +533,6 @@ Full-Width Styles
     padding-top: 0px;
 }
 
-#footer_wrap {
-    border-top: 1px solid #111;
-    background: #212121;
-    padding: 0px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
 #wrap {
     height: auto;
     min-height: 100%;
@@ -548,10 +543,6 @@ Full-Width Styles
     margin-left: 50px;
     font-size: 24px;
     padding-bottom: 0px;
-}
-
-footer {
-    padding: 2px 0px 2px 0px !important;
 }
 
 footer p {
@@ -609,4 +600,12 @@ Small Device Styles
         max-width: 480px;
         font-size: 11px;
     }
+}
+
+body {
+    min-width: 700px;
+}
+
+footer p {
+    font-size: 10px;
 }
